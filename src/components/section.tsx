@@ -11,7 +11,7 @@ interface SectionProps {
 export default function Section({ children, className, id, classNameS }: SectionProps) {
     return (
         <section className={`w-full flex items-center justify-center ${classNameS}`} id={id}>
-            <div className={`w-full max-w-7xl flex items-center justify-center flex-col ${className} sm:px-0 px-4`}>
+            <div className={`w-full max-w-7xl flex items-center justify-center flex-col ${className} sm:px-4 px-4`}>
                 {children}
             </div>
         </section>

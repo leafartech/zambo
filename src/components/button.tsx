@@ -19,7 +19,16 @@ function secondary_button({ children, href }: classicTemplateProps) {
     return (
         <a
             href={href}
-            className="duration-300 transition hover:-translate-y-2 text-white my-shadow-2 uppercase bg-[#0CB450] font-medium sm:text-lg sm:text-xl w-full rounded-md text-center sm:py-5 py-3">
+            className="duration-300 transition hover:-translate-y-2 text-white my-shadow-2 uppercase bg-[#0CB450] font-medium text-lg sm:text-xl w-full rounded-md text-center sm:py-5 py-3">
+            {children}
+        </a>
+    )
+}
+function terciary_button({ children, href }: classicTemplateProps) {
+    return (
+        <a
+            href={href}
+            className="duration-300 transition hover:-translate-y-2 text-white uppercase bg-[#61ce70] font-medium text-lg sm:text-lg w-full rounded-3xl text-center sm:py-3 py-3 border-b-4 border-[#4d9457]">
             {children}
         </a>
     )
@@ -27,5 +36,6 @@ function secondary_button({ children, href }: classicTemplateProps) {
 
 export const Button = {
     classic_button,
-    secondary_button
+    secondary_button,
+    terciary_button
 }

@@ -176,6 +176,7 @@ export default function Page() {
                     </div>
                 </Section>
                 <Section
+                    id="buy"
                     className="sm:py-24 py-12 px-0"
                 >
                     <Payment />
