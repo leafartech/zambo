@@ -125,7 +125,7 @@ export default function Page() {
                 <Section
                     className="sm:py-24 py-6"
                 >
-                    <div className="flex flex-col items-center  gap-12">
+                    <div className="flex flex-col items-center gap-6 sm:gap-12">
                         <div className="flex flex-col gap-2 max-w-2xl text-center">
                             <h2 className="title">Veja o que você vai <span className="text-orange">aprender</span></h2>
                             <p className="sub">Você decide o que quer aprender. Nós montamos uma trilha de estudos em várias áreas do direito para você:</p>

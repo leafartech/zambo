@@ -2,7 +2,7 @@ import ListItem from "./list-item";
 
 export default function BigList() {
     return (
-        <ul className="flex flex-wrap sm:gap-8 gap-4 sm:items-center sm:justify-center">
+        <ul className="flex flex-wrap sm:gap-8 gap-4 sm:items-center items-stretch sm:justify-center">
             <ListItem>Direito Constitucional </ListItem>
             <ListItem>Direito Processual Penal</ListItem>
             <ListItem>Legislação Penal Especial </ListItem>

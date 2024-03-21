@@ -11,10 +11,10 @@ export default function Payment() {
                     alt="Imagem de mulher feliz"
                     width={747}
                     height={900}
-                    className="rounded-l-3xl"
+                    className="rounded-t-3xl sm:rounded-l-3xl"
                 />
             </div>
-            <div className="bg-grad rounded-r-3xl flex flex-col justify-center sm:gap-12 gap-6 px-4 sm:px-12 sm:pb-0 pb-6">
+            <div className="bg-grad rounded-b-3xl sm:rounded-r-3xl flex flex-col justify-center sm:gap-12 gap-6 px-4 sm:px-12 sm:pb-0 pb-6">
                 <h2 className="text-[32px] leading-[1.1em] sm:text-[40px] text-white font-semibold">Acesso <span className="text-orange">imediato à plataforma</span> logo após a assinatura.</h2>
                 <ul className="flex flex-col gap-4">
                     <li className="relative flex items-center sm:ps-12 ps-8">
