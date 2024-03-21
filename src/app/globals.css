@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .title {
+        @apply text-white font-semibold text-[32px] sm:text-[40px] leading-[1.1em]
+    }
+    .sub {
+        @apply text-zinc-300 sm:text-lg
+    }
+}
+.bg-grad {
+  background-color: transparent;
+    background-image: linear-gradient(150deg, #010101 20%, #FD6000 100%);
+}
+.img-back {
+  background-image: url("/images/zambo/bg8.png");
+  background-repeat: no-repeat;
+  background-position: right 60%
+}
+.my-shadow-2 {
+  box-shadow: 0px 13px 50px 0px rgba(27.999999999999986, 255, 118.99999999999994, 0.72);
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  
+  .swiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: px; */
+  }
+  
+  .swiper-horizontal>.swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: -4px !important;
+  }
+  
+  /* .swiper .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  } */
+  
+  @media (max-width: 426px) {
+    .swiper {
+        overflow: hidden;
+    }
+  }
+  
+  .swiper-pagination-clickable .swiper-pagination-bullet {
+    background: #ff941c;
+    height: 8px;
+    width: 8px;
+  }
+
+.my-shadow {
+    box-shadow: 0px 2.76726px 2.21381px 0px rgba(255, 148, 28, 0.04), 0px 6.6501px 5.32008px 0px rgba(255, 148, 28, 0.06), 0px 12.52155px 10.01724px 0px rgba(255, 148, 28, 0.08), 0px 22.33631px 17.86905px 0px rgba(255, 148, 28, 0.09), 0px 41.77761px 33.42209px 0px rgba(255, 148, 28, 0.11), 0px 100px 80px 0px rgba(255, 148, 28, 0.15);
+}
