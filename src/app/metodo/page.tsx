@@ -63,7 +63,7 @@ export default function Page() {
                                 <p className="sub-2">Ou seja, além de te fazer ganhar tempo nos estudos, ele vai te dar clareza do passo a passo que você deve seguir para ser aprovado.</p>
                             </div>
                             <Button.terciary_button
-                                href="https://pay.hotmart.com/I52481131B?off=t39ve8d6&checkoutMode=10&offDiscount=ESTENDIDA&split=12&sck=null&utm_source=null&utm_campaign=null&utm_medium=null&utm_term=null&utm_content=null&bid=1711031899205"
+                                href="#buy"
                             >Quero ser aprovado na OAB</Button.terciary_button>
                         </div>
                     </Heroflex>
@@ -114,8 +114,8 @@ export default function Page() {
                 </Section>
                 <Section
                     className="sm:py-12 py-6"
+                    id="buy"
                 >
-
                     <Payment />
                 </Section>
                 <Section

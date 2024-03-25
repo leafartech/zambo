@@ -4,6 +4,7 @@ import MySwiper from "@/components/MySwiper";
 import Testmonials from "@/components/MySwiper/testmonials";
 import { Button } from "@/components/button";
 import Card from "@/components/card";
+import CountdownClock from "@/components/countdown";
 import Dropdown from "@/components/dropdown";
 import Footer from "@/components/footer";
 import { Header } from "@/components/header";
@@ -17,6 +18,7 @@ import { CheckCircleIcon } from "@heroicons/react/24/outline";
 export default function Page() {
   return (
     <div>
+      <CountdownClock />
       <Header.classic_template
         buttonText="Começar agora"
         subHeadline="Construa a base que você precisa para ser aprovado em provas de concurso público, OAB ou até mesmo para tirar notas máximas nas provas da graduação."

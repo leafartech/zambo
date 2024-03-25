@@ -29,7 +29,7 @@ function classic_template({ buttonText, children, subHeadline }: classicTemplate
                     <p className="text-zinc-200">{subHeadline}</p>
                     <iframe className="rounded-xl sm:hidden block sm:w-full sm:h-full w-full h-48" src="https://www.youtube.com/embed/EioQcmf5GdI?si=zx6Hvf0OY0nqHnnH" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <Button.terciary_button
-                        href="https://pay.hotmart.com/I52481131B?off=t39ve8d6&checkoutMode=10&offDiscount=ESTENDIDA&split=12&sck=null&utm_source=null&utm_campaign=null&utm_medium=null&utm_term=null&utm_content=null&bid=1711030745627"
+                        href="#buy"
                     >Quero ser aprovado</Button.terciary_button>
                     <div className="w-full flex flex-col items-center gap-2">
                         <p className="text-xs text-white">De <span className="text-red-600">R$ 297,00</span> por apenas 12x de R$ 9,68 ou R$ 97 à vista.</p>

@@ -10,12 +10,12 @@ interface classicTemplateProps {
 
 function classic_template({ buttonText, children, subHeadline }: classicTemplateProps) {
     return (
-        <header className="sm:h-screen w-full flex items-center justify-center sm:bg-transparent bg-[#101010] pb-12">
+        <header className="sm:h-screen w-full flex items-center justify-center sm:bg-transparent bg-[#101010] sm:pt-0 pt-12 pb-12">
             <Image
                 width={1920}
                 height={800}
-                objectFit="cover"
-                layout="responsive"
+                objectFit="fill"
+                layout="respoonsive"
                 alt="Zambo Classic Background"
                 src="/images/zambo/bg.png"
                 className="absolute  -z-10 bottom-0"

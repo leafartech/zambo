@@ -1,8 +1,20 @@
+'use client'
+
 import { CheckCircleIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import { Button } from "../button";
+import { useEffect, useState } from "react";
 
 export default function Payment() {
+    const [ updatedUrl, setUpdatedUrl] = useState('')
+    useEffect(() => {
+        let url = 'https://pay.hotmart.com/I52481131B?off=t39ve8d6&checkoutMode=10&offDiscount=ESTENDIDA&split=12'
+        if (typeof window !== 'undefined') {
+            const params = window.top?.location.href.split("?")[1]?.split("&").join('&')
+            setUpdatedUrl(`${url}&${params}` )
+        }
+    }, [])
+
     return (
         <div className="sm:grid sm:grid-cols-2 flex flex-col w-full max-w-5xl">
             <div className="">
@@ -37,7 +49,7 @@ export default function Payment() {
                 <div className="w-full flex flex-col gap-2 text-center">
                     <h4 className="text-2xl sm:text-4xl font-bold text-white">12 x de R$ 9,68</h4>
                     <p className="text-zinc-200">ou R$ 97,00 à vista</p>
-                    <Button.terciary_button href="https://pay.hotmart.com/D83117419H?off=buyg3j23&checkoutMode=10&split=12&sck=pagina-zamboflix">Eu quero fazer parte</Button.terciary_button>
+                    <Button.terciary_button href={updatedUrl}>Eu quero fazer parte</Button.terciary_button>
                     <div className="sm:w-full flex flex-col items-center gap-4 mt-4">
                         <div className="w-2/3">
                             <Image
