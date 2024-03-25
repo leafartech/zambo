@@ -5,7 +5,8 @@ import "./globals.css";
 const poppins = Poppins({ subsets: ["latin"], weight: ['200','300', '400', '500', '600', '900', '700'] });
 
 export const metadata: Metadata = {
-  title: "Home - ZamboFlix",
+  title: "Cargo Público - ZamboFlix",
+  description: "",
 };
 
 export default function RootLayout({
@@ -14,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <head>
         <script dangerouslySetInnerHTML={{
           __html: `
