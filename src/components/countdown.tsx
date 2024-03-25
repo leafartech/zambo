@@ -14,9 +14,9 @@ const CountdownClock = () => {
     useEffect(() => {
         // Atualizar a contagem regressiva a cada segundo
         const interval = setInterval(() => {
-            const now = new Date();
+            const now: any = new Date();
             // Defina a data final aqui
-            const endDate = new Date('2024-03-26T23:59:00');
+            const endDate: any = new Date('2024-03-26T23:59:00');
             const difference = endDate - now;
 
             // Calcula a diferença de tempo
