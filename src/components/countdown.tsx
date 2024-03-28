@@ -50,7 +50,7 @@ const CountdownClock = () => {
     }, []);
 
     return (
-        <div className="w-full h-16 fixed bg-[#010101]">
+        <div className="w-full h-16 fixed bg-[#010101] z-50">
             <div className="h-full bg-red-500/55 flex items-center justify-center gap-2 sm:gap-4 border-b-2 border-white/55">
                 <div className="flex gap-2 items-center text-white">
                     <ClockIcon className="sm:h-8 sm:w-8 h-6 w-6" />
