@@ -47,8 +47,8 @@ export default function Payment() {
                     </li>
                 </ul>
                 <div className="w-full flex flex-col gap-2">
-                    <h4 className="text-2xl sm:text-4xl font-bold text-white">12 x de R$ 29,64</h4>
-                    <p className="text-zinc-200">ou R$ 297,00 à vista</p>
+                    <h4 className="text-2xl sm:text-4xl font-bold text-white">12 x de R$ 39,62</h4>
+                    <p className="text-zinc-200">ou R$ 397,00 à vista</p>
                     <Button.secondary_button href={updatedUrl}>Eu quero fazer parte</Button.secondary_button>
                     <div className="sm:w-full flex flex-col items-center gap-4 mt-4">
                         <div className="w-2/3">

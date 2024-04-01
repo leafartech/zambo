@@ -17,7 +17,7 @@ import Section from "@/components/section";
 export default function Page() {
     return (
         <div>
-            <CountdownClock />
+            {/* <CountdownClock /> */}
             <Header.classic_template
                 buttonText="Começe agora"
                 subHeadline="Construa a base que você precisa para ser aprovado em provas de concurso público."

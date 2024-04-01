@@ -18,7 +18,7 @@ import { CheckCircleIcon } from "@heroicons/react/24/outline";
 export default function Page() {
   return (
     <div>
-      <CountdownClock />
+      {/* <CountdownClock /> */}
       <Header.classic_template
         buttonText="Começar agora"
         subHeadline="Construa a base que você precisa para ser aprovado em provas de concurso público, OAB ou até mesmo para tirar notas máximas nas provas da graduação."
